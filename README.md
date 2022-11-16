@@ -2,7 +2,7 @@
 
 Program name | Files to turn in | Makefile rules | External functions | result
 :---: |:---: | :---: | :---: | :---:
-libftprint.a | Makefile, \*.h, \*/\*.h, \*.c, \*/\*.c | NAME, all, clean, fclean, re | malloc, free, write, va_start, va_arg, va_copy, va_end, (libft) | 0/100%
+libftprint.a | Makefile, \*.h, \*/\*.h, \*.c, \*/\*.c | NAME, all, clean, fclean, re | malloc, free, write, va_start, va_arg, va_copy, va_end, (libft) | 100/100%
 
 ## Objective
 
