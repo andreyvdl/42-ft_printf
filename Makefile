@@ -18,7 +18,7 @@ all: $(NAME)
 
 $(NAME): $(OBJ)
 	@echo "$(GREEN)Creating $(NAME)...$(RESET)"
-	@make -C $(LIBPATH)
+	@make -C $(LIBPATH) 
 	@mv $(LIBPATH)libft.a $(NAME)
 	@ar rcs $(NAME) $(OBJ)
 	@echo "$(GREEN)$(NAME) created$(RESET)"
@@ -40,5 +40,10 @@ clean:
 
 re: fclean all
 	@echo "$(RED)Update completed.$(RESET)"
+
+norm:
+	@echo "$(YELLOW)Running norminette...$(RESET)"
+	@norminette
+	@echo "$(YELLOW)All OK!$(RESET)"
 
 .PHONY: re, clean, fclean, all
