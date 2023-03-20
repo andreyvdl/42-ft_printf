@@ -1,5 +1,9 @@
-# 42-ft_printf
+<div align="center">
+  <img src="https://github.com/gawbsouza/42-pdh/blob/main/dark/ft_printf_dark.svg"><br>
+  <a href="https://github.com/gawbsouza/42-pdh"><img src="https://github.com/gawbsouza/42-pdh/blob/main/badge/42pdh_badge.svg"></a>
+</div>
 
+___
 Program name | Files to turn in | Makefile rules | External functions | result
 :---: |:---: | :---: | :---: | :---:
 libftprint.a | Makefile, \*.h, \*/\*.h, \*.c, \*/\*.c | NAME, all, clean, fclean, re | malloc, free, write, va_start, va_arg, va_copy, va_end, (libft) | 100/100%
