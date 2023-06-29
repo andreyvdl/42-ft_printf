@@ -17,3 +17,20 @@ libftprint.a | Makefile, \*.h, \*/\*.h, \*.c, \*/\*.c | NAME, all, clean, fclean
 ```c
 int	ft_printf(const char *, ...);
 ```
+
+## Simple Code Execution
+
+```c
+#include "ft_printf.h"
+
+int  main(void)
+{
+	ft_printf("%c\n", byte);
+	ft_printf("%s\n", string);
+	ft_printf("%d %i\n", number1, number2);
+	ft_printf("%p\n", pointer);
+	ft_printf("%x %X\n", number3, number4);
+	ft_printf("%%\n");
+	return (0);
+}
+```
