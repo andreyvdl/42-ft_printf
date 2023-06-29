@@ -18,7 +18,7 @@ libftprint.a | Makefile, \*.h, \*/\*.h, \*.c, \*/\*.c | NAME, all, clean, fclean
 int	ft_printf(const char *, ...);
 ```
 
-## Simple Code Execution
+### Simple Code Execution
 
 ```c
 #include "ft_printf.h"
